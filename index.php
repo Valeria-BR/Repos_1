@@ -5,15 +5,15 @@
         <title></title>
 		<link href="style.css" rel="stylesheet">
     <body>
-		<?php 
-		    @$connect=mysqli_connect("HOST", "USER","PASSWORD","DB"); // ПОДКЛЮЧЕНИЕ К БД!!!!
+		<?php
+	    		/* @$connect=mysqli_connect("HOST", "USER","PASSWORD","DB"); // ПОДКЛЮЧЕНИЕ К БД!!!!
 			if(!mysqli_connect_errno())
 				mysqli_query($connect,'SET NAMES utf8');
 			else
 			{
 				echo 'Ошибка подключения';
 				exit;
-			}
+			}*/
 				
 			include_once("methods.php");
 			$methods = new Methods();
