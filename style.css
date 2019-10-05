@@ -1,0 +1,37 @@
+@font-face {
+font-family: '10906';
+src: url("10906.otf") format("opentype");
+}
+
+body{
+	font-family:'10906';
+	font-size: 20px;
+	text-align:center;
+	
+	list-style-position: inside;
+}
+
+#z1{
+	background-color: #fdffbd;
+}
+
+#z2{
+	background-color: #c5ddde;
+}
+
+#z3{
+	background-color: #bffaa0;
+}
+
+h3{
+	margin-top: 0px;
+}
+
+ol{
+	margin-bottom: 0px;
+	padding-left: 0px;
+}
+
+div{
+	padding: 2%;
+}
